@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2722DD781BFA0EC500DA11CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2722DD771BFA0EC500DA11CC /* main.m */; };
+		2722DD7B1BFA0EC500DA11CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2722DD7A1BFA0EC500DA11CC /* AppDelegate.m */; };
+		2722DD7E1BFA0EC500DA11CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2722DD7D1BFA0EC500DA11CC /* ViewController.m */; };
+		2722DD811BFA0EC500DA11CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722DD7F1BFA0EC500DA11CC /* Main.storyboard */; };
+		2722DD831BFA0EC500DA11CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2722DD821BFA0EC500DA11CC /* Assets.xcassets */; };
+		2722DD861BFA0EC500DA11CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722DD841BFA0EC500DA11CC /* LaunchScreen.storyboard */; };
+		2722DD911BFA0EC600DA11CC /* TeamCityGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2722DD901BFA0EC600DA11CC /* TeamCityGuideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2722DD8D1BFA0EC600DA11CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2722DD6B1BFA0EC500DA11CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2722DD721BFA0EC500DA11CC;
+			remoteInfo = TeamCityGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2722DD731BFA0EC500DA11CC /* TeamCityGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2722DD771BFA0EC500DA11CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2722DD791BFA0EC500DA11CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2722DD7A1BFA0EC500DA11CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2722DD7C1BFA0EC500DA11CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2722DD7D1BFA0EC500DA11CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2722DD801BFA0EC500DA11CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2722DD821BFA0EC500DA11CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2722DD851BFA0EC500DA11CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2722DD871BFA0EC500DA11CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2722DD8C1BFA0EC600DA11CC /* TeamCityGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamCityGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2722DD901BFA0EC600DA11CC /* TeamCityGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamCityGuideTests.m; sourceTree = "<group>"; };
+		2722DD921BFA0EC600DA11CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2722DD701BFA0EC500DA11CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2722DD891BFA0EC600DA11CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2722DD6A1BFA0EC500DA11CC = {
+			isa = PBXGroup;
+			children = (
+				2722DD751BFA0EC500DA11CC /* TeamCityGuide */,
+				2722DD8F1BFA0EC600DA11CC /* TeamCityGuideTests */,
+				2722DD741BFA0EC500DA11CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2722DD741BFA0EC500DA11CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2722DD731BFA0EC500DA11CC /* TeamCityGuide.app */,
+				2722DD8C1BFA0EC600DA11CC /* TeamCityGuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2722DD751BFA0EC500DA11CC /* TeamCityGuide */ = {
+			isa = PBXGroup;
+			children = (
+				2722DD791BFA0EC500DA11CC /* AppDelegate.h */,
+				2722DD7A1BFA0EC500DA11CC /* AppDelegate.m */,
+				2722DD7C1BFA0EC500DA11CC /* ViewController.h */,
+				2722DD7D1BFA0EC500DA11CC /* ViewController.m */,
+				2722DD7F1BFA0EC500DA11CC /* Main.storyboard */,
+				2722DD821BFA0EC500DA11CC /* Assets.xcassets */,
+				2722DD841BFA0EC500DA11CC /* LaunchScreen.storyboard */,
+				2722DD871BFA0EC500DA11CC /* Info.plist */,
+				2722DD761BFA0EC500DA11CC /* Supporting Files */,
+			);
+			path = TeamCityGuide;
+			sourceTree = "<group>";
+		};
+		2722DD761BFA0EC500DA11CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2722DD771BFA0EC500DA11CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2722DD8F1BFA0EC600DA11CC /* TeamCityGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				2722DD901BFA0EC600DA11CC /* TeamCityGuideTests.m */,
+				2722DD921BFA0EC600DA11CC /* Info.plist */,
+			);
+			path = TeamCityGuideTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2722DD721BFA0EC500DA11CC /* TeamCityGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2722DD951BFA0EC600DA11CC /* Build configuration list for PBXNativeTarget "TeamCityGuide" */;
+			buildPhases = (
+				2722DD6F1BFA0EC500DA11CC /* Sources */,
+				2722DD701BFA0EC500DA11CC /* Frameworks */,
+				2722DD711BFA0EC500DA11CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamCityGuide;
+			productName = TeamCityGuide;
+			productReference = 2722DD731BFA0EC500DA11CC /* TeamCityGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2722DD8B1BFA0EC600DA11CC /* TeamCityGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2722DD981BFA0EC600DA11CC /* Build configuration list for PBXNativeTarget "TeamCityGuideTests" */;
+			buildPhases = (
+				2722DD881BFA0EC600DA11CC /* Sources */,
+				2722DD891BFA0EC600DA11CC /* Frameworks */,
+				2722DD8A1BFA0EC600DA11CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2722DD8E1BFA0EC600DA11CC /* PBXTargetDependency */,
+			);
+			name = TeamCityGuideTests;
+			productName = TeamCityGuideTests;
+			productReference = 2722DD8C1BFA0EC600DA11CC /* TeamCityGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2722DD6B1BFA0EC500DA11CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Asif Noor";
+				TargetAttributes = {
+					2722DD721BFA0EC500DA11CC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2722DD8B1BFA0EC600DA11CC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2722DD721BFA0EC500DA11CC;
+					};
+				};
+			};
+			buildConfigurationList = 2722DD6E1BFA0EC500DA11CC /* Build configuration list for PBXProject "TeamCityGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2722DD6A1BFA0EC500DA11CC;
+			productRefGroup = 2722DD741BFA0EC500DA11CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2722DD721BFA0EC500DA11CC /* TeamCityGuide */,
+				2722DD8B1BFA0EC600DA11CC /* TeamCityGuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2722DD711BFA0EC500DA11CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2722DD861BFA0EC500DA11CC /* LaunchScreen.storyboard in Resources */,
+				2722DD831BFA0EC500DA11CC /* Assets.xcassets in Resources */,
+				2722DD811BFA0EC500DA11CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2722DD8A1BFA0EC600DA11CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2722DD6F1BFA0EC500DA11CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2722DD7E1BFA0EC500DA11CC /* ViewController.m in Sources */,
+				2722DD7B1BFA0EC500DA11CC /* AppDelegate.m in Sources */,
+				2722DD781BFA0EC500DA11CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2722DD881BFA0EC600DA11CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2722DD911BFA0EC600DA11CC /* TeamCityGuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2722DD8E1BFA0EC600DA11CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2722DD721BFA0EC500DA11CC /* TeamCityGuide */;
+			targetProxy = 2722DD8D1BFA0EC600DA11CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2722DD7F1BFA0EC500DA11CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2722DD801BFA0EC500DA11CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2722DD841BFA0EC500DA11CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2722DD851BFA0EC500DA11CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2722DD931BFA0EC600DA11CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2722DD941BFA0EC600DA11CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2722DD961BFA0EC600DA11CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
+				INFOPLIST_FILE = TeamCityGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
+			};
+			name = Debug;
+		};
+		2722DD971BFA0EC600DA11CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asif Noor (N7587D9M8Z)";
+				INFOPLIST_FILE = TeamCityGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31ae9827-fc33-4887-b8de-ca66f666e92e";
+			};
+			name = Release;
+		};
+		2722DD991BFA0EC600DA11CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeamCityGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo.TeamCityGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamCityGuide.app/TeamCityGuide";
+			};
+			name = Debug;
+		};
+		2722DD9A1BFA0EC600DA11CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeamCityGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsconz.cvrobo.TeamCityGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamCityGuide.app/TeamCityGuide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2722DD6E1BFA0EC500DA11CC /* Build configuration list for PBXProject "TeamCityGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2722DD931BFA0EC600DA11CC /* Debug */,
+				2722DD941BFA0EC600DA11CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2722DD951BFA0EC600DA11CC /* Build configuration list for PBXNativeTarget "TeamCityGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2722DD961BFA0EC600DA11CC /* Debug */,
+				2722DD971BFA0EC600DA11CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2722DD981BFA0EC600DA11CC /* Build configuration list for PBXNativeTarget "TeamCityGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2722DD991BFA0EC600DA11CC /* Debug */,
+				2722DD9A1BFA0EC600DA11CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2722DD6B1BFA0EC500DA11CC /* Project object */;
+}
