@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2722DD8B1BFA0EC600DA11CC"
+               BuildableName = "TeamCityGuideTests.xctest"
+               BlueprintName = "TeamCityGuideTests"
+               ReferencedContainer = "container:TeamCityGuide.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -69,6 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2722DD8B1BFA0EC600DA11CC"
+            BuildableName = "TeamCityGuideTests.xctest"
+            BlueprintName = "TeamCityGuideTests"
+            ReferencedContainer = "container:TeamCityGuide.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
